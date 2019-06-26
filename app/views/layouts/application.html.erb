@@ -14,11 +14,11 @@
       <div class ="col-3">
         <div class="circle">
           <br />
+          Daily Dose
+          <br />
+          of
+          <br />
           Parenthood
-          <br />
-          Daily
-          <br />
-          Woes
         </div>
       </div>
       <div class="col-4 slogan">
@@ -33,7 +33,23 @@
     <hr />
     
     <br class="clear" />
-    
-    <%= yield %>
+        
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+                <div class="col-6 footer-blurb">
+                <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+                </div>
+                <div class="col-6 footer-blurb">
+                Created by Winnie Khuu - mama by day, coder by night.  Established in 2019.
+                </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
