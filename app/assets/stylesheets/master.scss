@@ -1,6 +1,5 @@
 @import "bootstrap";
 
-
 .clear {
   clear: both;
 }
@@ -76,4 +75,8 @@ h2 {
   font-style: italic;
   text-align: right;
   font-size: 10px;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
