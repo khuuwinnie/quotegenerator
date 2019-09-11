@@ -1,24 +1,37 @@
-# README
+This is the GitHub repository for the Splurty web application project, completed for the University of Toronto Coding Bootcamp program.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<b>How to run the web application locally</b>
+<p>Be sure to have the vagrant and PuTTY installed.  You can find how to do that <a href="https://github.com/hashicorp/vagrant" target="_blank">here</a>.
+  </p>
+  
+  <p>  
+  Clone the repository onto your computer.
+  </p>
+  
+  <p>
+  Run ```cmd.exe```
+  </p>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p>
+  Start vagrant. (Change directory if you aren't already in the folder where vagrant lives by using `cd`.)<br />
+  ```$ vagrant up```
+  </p>
+  
+  <p>
+  Start PuTTY by entering Host Name and Port.<br />
+  Enter login and password.
+  </p>
+  
+  <p>
+  Once it loads and you see `[ENV]:/vagrant $`, change your directory to the folder you saved the web application in.
+  ```$ cd /vagrant/src/splurty```
+  </p>
+  
+  <p>
+  Start up the application locally.<br />
+  ```$ rails server -b 0.0.0.0 -p 3000```
+  </p>
+  
+  <p>
+  Go to <a href="http://localhost:3030/">http://localhost:3030/</a>.
+  </p>
