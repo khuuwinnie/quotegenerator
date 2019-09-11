@@ -1,6 +1,7 @@
 This is the GitHub repository for the Splurty web application project, completed for the University of Toronto Coding Bootcamp program.
 
 <b>How to run the web application locally</b>
+<HR>
 <p>Be sure to have the vagrant and PuTTY installed.  You can find how to do that <a href="https://github.com/hashicorp/vagrant" target="_blank">here</a>.
   </p>
   
