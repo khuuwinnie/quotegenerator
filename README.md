@@ -5,7 +5,7 @@ This is the GitHub repository for the Splurty web application project, completed
   </p>
   
   <p>  
-  <ul>Clone the repository onto your computer.</ul>
+  * Clone the repository onto your computer.
   </p>
   
   <p>
