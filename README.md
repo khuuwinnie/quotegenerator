@@ -5,28 +5,28 @@ This is the GitHub repository for the Splurty web application project, completed
   </p>
   
   <p>  
-  Clone the repository onto your computer.
+  <ul>Clone the repository onto your computer.</ul>
   </p>
   
   <p>
-  Run
+  * Run the Command Prompt on your computer:
   
   ```cmd.exe```
   </p>
 
 <p>
-  Start vagrant. (Change directory if you aren't already in the folder where vagrant lives by using `cd`.)<br />
+  * Start vagrant. (Change directory if you aren't already in the folder where vagrant lives by using `cd`.)<br />
   
   ```$ vagrant up```
   </p>
   
   <p>
-  Start PuTTY by entering Host Name and Port.<br />
+  * Start PuTTY by entering Host Name and Port.<br />
   Enter login and password.
   </p>
   
   <p>
-  Once it loads and you see 
+  * Once it loads and you see 
   
   ```[ENV]:/vagrant $```
   
@@ -36,11 +36,11 @@ This is the GitHub repository for the Splurty web application project, completed
   </p>
   
   <p>
-  Start up the application locally.<br />
+  * Start up the application locally.<br />
   
   ```$ rails server -b 0.0.0.0 -p 3000```
   </p>
   
   <p>
-  Go to <a href="http://localhost:3030/">http://localhost:3030/</a>.
+  * Go to <a href="http://localhost:3030/">http://localhost:3030/</a>.
   </p>
