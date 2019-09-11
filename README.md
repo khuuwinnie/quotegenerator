@@ -9,7 +9,8 @@ This is the GitHub repository for the Splurty web application project, completed
   </p>
   
   <p>
-  Run 
+  Run
+  
   ```cmd.exe```
   </p>
 
@@ -26,6 +27,7 @@ This is the GitHub repository for the Splurty web application project, completed
   
   <p>
   Once it loads and you see 
+  
   ```[ENV]:/vagrant $```
   
   change your directory to the folder you saved the web application in.
