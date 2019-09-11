@@ -9,11 +9,13 @@ This is the GitHub repository for the Splurty web application project, completed
   </p>
   
   <p>
-  Run ```cmd.exe```
+  Run 
+  ```cmd.exe```
   </p>
 
 <p>
   Start vagrant. (Change directory if you aren't already in the folder where vagrant lives by using `cd`.)<br />
+  
   ```$ vagrant up```
   </p>
   
@@ -23,12 +25,17 @@ This is the GitHub repository for the Splurty web application project, completed
   </p>
   
   <p>
-  Once it loads and you see `[ENV]:/vagrant $`, change your directory to the folder you saved the web application in.
+  Once it loads and you see 
+  ```[ENV]:/vagrant $```
+  
+  change your directory to the folder you saved the web application in.
+  
   ```$ cd /vagrant/src/splurty```
   </p>
   
   <p>
   Start up the application locally.<br />
+  
   ```$ rails server -b 0.0.0.0 -p 3000```
   </p>
   
